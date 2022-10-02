@@ -1,0 +1,57 @@
+body{
+    font-family: 'Raleway', sans-serif; 
+}
+
+header{
+    background: #0543A9;
+    padding: 100px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #E8E9E9;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+nav a:hover{
+    color: #78a4c8;
+    text-decoration: underline;
+}
+
+.ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 35%;
+}
+
+.nasa{
+    display: center;
+    vertical-align: top;
+    width: 10%;
+    margin-right: 15%;
+}
+
+footer{
+    background: #0543A9;
+    padding: 60px;
+}
